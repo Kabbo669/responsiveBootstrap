@@ -5,6 +5,9 @@ text-decoration: none;
 ul,ol{
 list-style: none;
 }
+.navbar-toggler-icon{
+padding: 0 !important;
+}
 /* Common css end */
 /* Navbar part start */
 nav{
@@ -51,14 +54,14 @@ border-color:transparent;
 background: #1C1E53;
 padding: 126px 0;
 }
-.banner h1{
+.banner .banner-title h1{
 font-size:54px ;
 font-weight: 600;
 color: white;
 font-family: "Poppins", sans-serif;
 line-height: 74px;
 }
-.banner p{
+.banner .banner-title p{
 width: 568px;
 font-size:16px ;
 font-weight: 500;
@@ -604,7 +607,7 @@ font-size: 16px;
 font-family: "Poppins", serif;
 /* outline: none; */
 }
-button{
+.input-field button{
 width: 100%;
 background: #FCD980;
 border-radius: 41px;
@@ -805,7 +808,7 @@ color: #282938;
 display: flex; 
 column-gap: 32px;
 }
-ul li{
+.copyright ul li{
 position: relative;
 }
 .copyright ul li a{
@@ -817,7 +820,7 @@ font-family: "Poppins", serif;
 /* .copyright ul li:nth-child(2n+1) a{
 color: red;
 } */
-li:after{
+.copyright li:after{
 width: 20%;
 height: 3px;
 background: red;
@@ -828,7 +831,7 @@ content: "";
 transition: .4s;
 opacity: 0;
 }
-li:hover::after{
+.copyright li:hover::after{
 width: 100%;
 opacity: 1;
 }
